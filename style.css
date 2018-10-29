@@ -35,15 +35,22 @@ header {
 footer {
     position: absolute;
     bottom: 0;
-    height: 40px;
+    /* height: 40px; */
     width: 100%;
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
+    min-width: 980px;
+    line-height: 40px;
 }
 
 
 footer li {
     display: inline-block;
+}
+
+footer a {
+    color: #5f6368;
+    padding-left: 27px
 }
 
 a {
@@ -52,8 +59,11 @@ a {
 
 .lh-foot-links {
     float: left;
+    white-space: nowrap;
 }
 
 .rh-foot-links {
     float: right;
+    margin-right: 30px;
+    white-space: nowrap;
 }
