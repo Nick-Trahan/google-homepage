@@ -51,10 +51,9 @@ a {
 }
 
 .lh-foot-links {
-    left: 0;
-    width: 125px;
+    float: left;
 }
 
 .rh-foot-links {
-    right: 0;
+    float: right;
 }
