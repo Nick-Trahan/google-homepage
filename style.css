@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+header {
+    position: relative;
+    top: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.main-content {
+    text-align: center;
+    text-align: -webkit-center;
+    padding-bottom: 40px;
+}
+
+.mic {
+    height: 24px;
+    width: 24px;
+}
+
+.main-logo {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+
+footer li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lh-foot-links {
+    left: 0;
+    width: 125px;
+}
+
+.rh-foot-links {
+    right: 0;
+}
